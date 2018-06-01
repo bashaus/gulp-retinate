@@ -11,11 +11,17 @@ This project is based on
 include the use of the [Sharp][url:sharp] image library instead of
 [GM](https://github.com/aheckmann/gm) to resize images, reducing dependencies.
 
+Also see: [posthtml-retinate](https://github.com/bashaus/posthtml-retinate)
+
+&nbsp;
+
 ## Installation
 
 ```bash
 npm install gulp gulp-retinate
 ```
+
+&nbsp;
 
 ## Usage
 
@@ -40,6 +46,8 @@ gulp.task('default', function () {
     .pipe(gulp.dest('./dest/'));
 });
 ```
+
+&nbsp;
 
 ## Options
 

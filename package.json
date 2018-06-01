@@ -1,0 +1,48 @@
+{
+  "name": "gulp-retinate",
+  "version": "1.0.0",
+  "description": "Automated retina down-scaling from @2x and @4x",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bashaus/gulp-retinate"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "lint": "node_modules/.bin/eslint src/**/*.js spec/**/*.spec.js",
+    "pretest": "npm run lint",
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
+  },
+  "keywords": [
+    "retina",
+    "retinate",
+    "resize",
+    "scale",
+    "image",
+    "gulpplugin"
+  ],
+  "author": "Matti Dupre <matti@threebeluga.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bashaus/gulp-retinate/issues"
+  },
+  "homepage": "https://github.com/bashaus/gulp-retinate",
+  "dependencies": {
+    "extend": "^3.0.1",
+    "glob": "^7.1.2",
+    "image-size": "^0.6.2",
+    "plugin-error": "^1.0.1",
+    "sharp": "^0.20.2",
+    "vinyl": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "expect": "^23.0.1",
+    "gulp": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.1.0",
+    "looks-same": "^3.3.0"
+  }
+}
